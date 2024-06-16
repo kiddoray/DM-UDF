@@ -1,0 +1,3 @@
+# ninja log v5
+1	23051	1685699036	/home/feiben2/UDF-DCD/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-38/chamfer_cuda.o	3b99a3ddd2e2bdc6
+0	71372	1685699085	/home/feiben2/UDF-DCD/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-38/chamfer.o	a059d44c0f55f66a

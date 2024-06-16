@@ -1,0 +1,9 @@
+chamfer3D.cu
+chamfer_cuda.cpp
+setup.py
+/mnt/data/digital_content_aigc/feiben/CAP-UDF/ChamferDistancePytorch/chamfer3D/chamfer3D.cu
+/mnt/data/digital_content_aigc/feiben/CAP-UDF/ChamferDistancePytorch/chamfer3D/chamfer_cuda.cpp
+chamfer_3D.egg-info/PKG-INFO
+chamfer_3D.egg-info/SOURCES.txt
+chamfer_3D.egg-info/dependency_links.txt
+chamfer_3D.egg-info/top_level.txt
