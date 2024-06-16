@@ -41,8 +41,8 @@ Please also check out the following works that inspire us a lot:
 * Junsheng Zhou et al. - CAP-UDF: Learning Unsigned Distance Functions Progressively from Raw Point Clouds with Consistency-Aware Field Optimization
  (TPAMI2024/NeurIPS2022) (https://github.com/junshengzhou/CAP-UDF)
 
-* Tong Wu et al. - Density-aware Chamfer Distance as a Comprehensive Metric for Point Cloud Completion
- (NeurIPS2021) (https://github.com/wutong16/Density_aware_Chamfer_Distance)
+* Tong Wu et al. - Density-aware Chamfer Distance as a Comprehensive Metric for Point Cloud Completion(NeurIPS2021) 
+ (https://github.com/wutong16/Density_aware_Chamfer_Distance)
 
 * Pingping Zhang et al. - Progressive Point Cloud Upsampling via Differentiable Rendering
  (TCSVT2021) (https://github.com/ppingzhang/PPU)
@@ -145,7 +145,7 @@ Our code is based on the [CAP-UDF](https://github.com/junshengzhou/CAP-UDF). We 
 
 ## Citation
 If you find our code or paper useful, please consider citing
-
+```
   @inproceedings{zhang2024learning,
     title={Learning Density Regulated and Multi-View Consistent Unsigned Distance Fields},
     author={Zhang, Rui and Xu, Jingyi and Yang, Weidong and Ma, Lipeng and Chen, Menglong and Fei, Ben},
@@ -154,4 +154,4 @@ If you find our code or paper useful, please consider citing
     year={2024},
     organization={IEEE}
   }
-
+```
