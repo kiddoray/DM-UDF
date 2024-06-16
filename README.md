@@ -37,12 +37,15 @@ fidelity of projected images under different camera poses to maintain multi-view
 
 ## Related works
 Please also check out the following works that inspire us a lot:
-* [Junsheng Zhou et al. - CAP-UDF: Learning Unsigned Distance Functions Progressively from Raw Point Clouds with Consistency-Aware Field Optimization
- (TPAMI2024/NeurIPS2022)] (https://github.com/junshengzhou/CAP-UDF)
 
-* [Baorui Ma et al. - Neural-Pull: Learning Signed Distance Functions from Point Clouds by Learning to Pull Space onto Surfaces (ICML2021)](https://github.com/mabaorui/NeuralPull-Pytorch)
-* [Baorui Ma et al. - Surface Reconstruction from Point Clouds by Learning Predictive Context Priors (CVPR2022)](https://mabaorui.github.io/PredictableContextPrior_page/)
-* [Baorui Ma et al. - Reconstructing Surfaces for Sparse Point Clouds with On-Surface Priors (CVPR2022)](https://mabaorui.github.io/-OnSurfacePrior_project_page/)
+* Junsheng Zhou et al. - CAP-UDF: Learning Unsigned Distance Functions Progressively from Raw Point Clouds with Consistency-Aware Field Optimization
+ (TPAMI2024/NeurIPS2022) (https://github.com/junshengzhou/CAP-UDF)
+
+* Tong Wu et al. - Density-aware Chamfer Distance as a Comprehensive Metric for Point Cloud Completion
+ (NeurIPS2021) (https://github.com/wutong16/Density_aware_Chamfer_Distance)
+
+* Pingping Zhang et al. - Progressive Point Cloud Upsampling via Differentiable Rendering
+ (TCSVT2021) (https://github.com/ppingzhang/PPU)
 
 ## Installation
 Our code is implemented in Python 3.8, PyTorch 1.11.0 and CUDA 11.3.
@@ -138,16 +141,17 @@ python run.py --gpu 0 --conf confs/base.conf --dataname (dataname) --dir (datana
 ```
 
 ## Acknowledgement
-Our code is based on the [CAP-UDF](https://github.com/junshengzhou/CAP-UDF).We thank the authors for their contributions.
+Our code is based on the [CAP-UDF](https://github.com/junshengzhou/CAP-UDF). We thank the authors for their contributions.
 
 ## Citation
 If you find our code or paper useful, please consider citing
 
-    @inproceedings{zhang2024learning,
-  title={Learning Density Regulated and Multi-View Consistent Unsigned Distance Fields},
-  author={Zhang, Rui and Xu, Jingyi and Yang, Weidong and Ma, Lipeng and Chen, Menglong and Fei, Ben},
-  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={8366--8370},
-  year={2024},
-  organization={IEEE}}
+  @inproceedings{zhang2024learning,
+    title={Learning Density Regulated and Multi-View Consistent Unsigned Distance Fields},
+    author={Zhang, Rui and Xu, Jingyi and Yang, Weidong and Ma, Lipeng and Chen, Menglong and Fei, Ben},
+    booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    pages={8366--8370},
+    year={2024},
+    organization={IEEE}
+  }
 
